@@ -1,13 +1,11 @@
-import "./App.css";
+import Hero from "./components/Hero";
+import Main from "./components/Main";
 
-function App() {
-	return (
-		<>
-			<h1>
-				Most Bes<strong>test</strong> Wallet!
-			</h1>
-		</>
-	);
+export default function App(): JSX.Element {
+    return (
+        <>
+            <Hero />
+            <Main />
+        </>
+    );
 }
-
-export default App;
