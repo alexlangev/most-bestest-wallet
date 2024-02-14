@@ -5,14 +5,14 @@ export default function Main(): JSX.Element {
     return (
         <Wrapper>
             {/* <LogIn /> */}
-            <TESTER>
+            {/* <TESTER>
                 <label>Send To</label>
                 <input></input>
                 <label>Amount</label>
                 <input></input>
                 <button>Send</button>
-            </TESTER>
-            <TESTER>
+            </TESTER> */}
+            {/* <TESTER>
                 <h2>Transactions</h2>
                 <span>Jan 1, 2024</span>
                 <div>
@@ -32,14 +32,15 @@ export default function Main(): JSX.Element {
                     <span>failed</span>
                     <span>-0 SepoliaETH</span>
                 </div>
-            </TESTER>
+            </TESTER> */}
         </Wrapper>
     );
 }
 
 const Wrapper = styled.section`
+    border-top: 1px white solid;
     background-color: hsl(0, 0%, 7%);
-    min-height: 70vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     color: hsl(0, 0%, 93%);
