@@ -1,7 +1,11 @@
-export default function LogIn(): JSX.Element {
+interface LogInPrompts {
+    onClick: () => void;
+}
+
+export default function LogIn({ onClick }: LogInPrompts): JSX.Element {
     return (
         <>
-            <button>click me!</button>
+            <button onClick={onClick}>click me!</button>
         </>
     );
 }
