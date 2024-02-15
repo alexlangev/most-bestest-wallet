@@ -1,3 +1,4 @@
+import Button from "./Button";
 interface LogInPrompts {
     onClick: () => void;
 }
@@ -5,7 +6,7 @@ interface LogInPrompts {
 export default function LogIn({ onClick }: LogInPrompts): JSX.Element {
     return (
         <>
-            <button onClick={onClick}>click me!</button>
+            <Button onClick={onClick}>Log in</Button>
         </>
     );
 }

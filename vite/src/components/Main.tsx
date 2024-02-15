@@ -56,6 +56,7 @@ const Wrapper = styled.section`
     flex-direction: column;
     color: hsl(0, 0%, 93%);
     align-items: center;
+    justify-content: space-around;
 `;
 
 const TESTER = styled.div`

@@ -35,12 +35,11 @@ const Wrapper = styled.section`
     color: white;
     background-color: hsl(0, 0%, 7%);
     min-height: 50vh;
-    font-size: 6.5em;
     text-align: center;
 
     h1 {
         font-family: "Anton", sans-serif;
-        font-size: 12rem;
+        font-size: 6rem;
         letter-spacing: 0.5rem;
     }
 `;
